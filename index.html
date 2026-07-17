@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Old School House — a restaurant in Calverton, Nottingham. View the menu and book a table." />
+  <title>The Old School House — Restaurant, Calverton</title>
+
+  <link rel="icon" href="favicon.svg?v=11" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="favicon.svg?v=11" />
+  <meta name="theme-color" content="#2C3A31" />
+
+  <!-- Open Graph / social sharing. NOTE before launch: set og:url and change og:image + twitter:image to ABSOLUTE URLs on your live domain (relative paths don't work in most link previews). -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="The Old School House" />
+  <meta property="og:title" content="The Old School House — Calverton, Nottingham" />
+  <meta property="og:description" content="A restaurant in Calverton, Nottingham. View the menu and book a table." />
+  <meta property="og:image" content="https://your-domain.example/assets/google/g1.jpg" />
+  <meta property="og:image:width" content="1600" />
+  <meta property="og:image:height" content="1200" />
+  <meta property="og:locale" content="en_GB" />
+  <!-- <meta property="og:url" content="https://your-domain.example/" /> -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Old School House — Calverton, Nottingham" />
+  <meta name="twitter:description" content="A restaurant in Calverton, Nottingham. View the menu and book a table." />
+  <meta name="twitter:image" content="https://your-domain.example/assets/google/g1.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,500&family=Hanken+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css?v=11" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav" data-nav>
+    <div class="nav__inner">
+      <a class="nav__brand" href="#top" aria-label="The Old School House, home">
+        <span class="nav__brand-mark">O·S·H</span>
+        <span class="nav__brand-name">The Old School House</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#story">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="#reserve" class="btn btn--brass nav__cta">Reserve a Table</a>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+        <span></span><span></span>
+      </button>
+    </div>
+    <nav class="nav__mobile" aria-label="Mobile" data-mobile-menu>
+      <a href="#story">Our Story</a>
+      <a href="#menu">Menu</a>
+      <a href="contact.html">Contact</a>
+      <a href="#reserve" class="btn btn--brass">Reserve a Table</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__media">
+        <img
+          src="assets/google/g1.jpg"
+          alt="The warmly lit dining room of The Old School House, tables set beneath the oak dresser"
+          fetchpriority="high" />
+        <div class="hero__scrim"></div>
+      </div>
+
+      <div class="hero__content">
+       <div class="hero__panel">
+        <a class="gpill" href="https://maps.app.goo.gl/zJDxkAFFY1DviZDd6" target="_blank" rel="noopener" aria-label="Read our reviews on Google, opens in a new tab">
+          <svg class="gpill__g" viewBox="0 0 48 48" aria-hidden="true">
+            <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+            <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+            <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+            <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+          </svg>
+          <span class="gpill__stars" aria-hidden="true">★★★★★</span>
+          <span class="gpill__text">Read our reviews on Google</span>
+        </a>
+        <p class="eyebrow eyebrow--light">Calverton · Nottingham</p>
+        <h1 class="hero__title" id="hero-title">The Old School House</h1>
+        <p class="hero__tagline">A short tagline about <em>your restaurant</em></p>
+        <p class="hero__lede">
+          Introduce your restaurant here in a sentence or two — who you are, what you
+          serve, and why guests keep coming back. This is placeholder text.
+        </p>
+        <div class="hero__actions">
+          <a href="#reserve" class="btn btn--brass">Reserve a Table</a>
+          <a href="#menu" class="btn btn--ghost-light">View the Menu</a>
+        </div>
+       </div>
+      </div>
+
+      <div class="hero__meta">
+        <span>Dinner · Mon – Fri</span>
+        <span class="hero__meta-dot" aria-hidden="true">·</span>
+        <span>Calverton, Nottingham</span>
+      </div>
+    </section>
+
+    <!-- ============ INTRO STRIP ============ -->
+    <section class="strip">
+      <p class="strip__text">
+        A short, memorable line about your restaurant goes here —
+        <em>this space is yours to make your own.</em>
+      </p>
+    </section>
+
+    <!-- ============ STORY ============ -->
+    <section class="story" id="story" aria-labelledby="story-title">
+      <div class="story__frame reveal">
+        <img
+          src="assets/google/g3.jpg"
+          alt="Sirloin with hand-rolled pasta and a red wine jus at The Old School House"
+          loading="lazy" />
+        <span class="story__frame-tag">From the kitchen</span>
+      </div>
+
+      <div class="story__body reveal">
+        <p class="eyebrow">Our Story</p>
+        <h2 class="section-title" id="story-title">
+          Tell your story here
+        </h2>
+        <p>
+          This is where your restaurant's story goes — how you started, what you care
+          about, and what makes a visit worth it. Replace this placeholder text with
+          your own words.
+        </p>
+        <p>
+          Keep it warm and personal. A short paragraph or two is plenty to give guests
+          a feel for who you are.
+        </p>
+        <ul class="story__pillars">
+          <li>
+            <span class="story__pillar-k">01</span>
+            <span class="story__pillar-t">Example highlight — a few words about what you do best</span>
+          </li>
+          <li>
+            <span class="story__pillar-k">02</span>
+            <span class="story__pillar-t">Example highlight — another point worth making</span>
+          </li>
+          <li>
+            <span class="story__pillar-k">03</span>
+            <span class="story__pillar-t">Example highlight — one more thing guests should know</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section class="menu" id="menu" aria-labelledby="menu-title">
+      <div class="menu__head">
+        <p class="eyebrow">Sample Menu</p>
+        <h2 class="section-title section-title--center" id="menu-title">
+          Your menu goes here
+        </h2>
+        <p class="menu__note">
+          Example content — replace these items, descriptions and prices with your own.
+        </p>
+      </div>
+
+      <div class="menu__columns">
+        <div class="menu__col reveal">
+          <h3 class="menu__col-title">To Begin</h3>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <div class="menu__item-head">
+                <span class="menu__item-name">Example starter one</span>
+                <span class="menu__dots" aria-hidden="true"></span>
+                <span class="menu__price">00</span>
+              </div>
+              <p class="menu__desc">A short description of this dish goes here.</p>
+            </li>
+            <li class="menu__item">
+              <div class="menu__item-head">
+                <span class="menu__item-name">Example starter two</span>
+                <span class="menu__dots" aria-hidden="true"></span>
+                <span class="menu__price">00</span>
+              </div>
+              <p class="menu__desc">A short description of this dish goes here.</p>
+            </li>
+            <li class="menu__item">
+              <div class="menu__item-head">
+                <span class="menu__item-name">Example starter three</span>
+                <span class="menu__dots" aria-hidden="true"></span>
+                <span class="menu__price">00</span>
+              </div>
+              <p class="menu__desc">A short description of this dish goes here.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu__col reveal">
+          <h3 class="menu__col-title">The Mains</h3>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <div class="menu__item-head">
+                <span class="menu__item-name">Example main one</span>
+                <span class="menu__dots" aria-hidden="true"></span>
+                <span class="menu__price">00</span>
+              </div>
+              <p class="menu__desc">A short description of this dish goes here.</p>
+            </li>
+            <li class="menu__item">
+              <div class="menu__item-head">
+                <span class="menu__item-name">Example main two</span>
+                <span class="menu__dots" aria-hidden="true"></span>
+                <span class="menu__price">00</span>
+              </div>
+              <p class="menu__desc">A short description of this dish goes here.</p>
+            </li>
+            <li class="menu__item">
+              <div class="menu__item-head">
+                <span class="menu__item-name">Example main three</span>
+                <span class="menu__dots" aria-hidden="true"></span>
+                <span class="menu__price">00</span>
+              </div>
+              <p class="menu__desc">A short description of this dish goes here.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu__col reveal">
+          <h3 class="menu__col-title">To Finish</h3>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <div class="menu__item-head">
+                <span class="menu__item-name">Example dessert one</span>
+                <span class="menu__dots" aria-hidden="true"></span>
+                <span class="menu__price">00</span>
+              </div>
+              <p class="menu__desc">A short description of this dish goes here.</p>
+            </li>
+            <li class="menu__item">
+              <div class="menu__item-head">
+                <span class="menu__item-name">Example dessert two</span>
+                <span class="menu__dots" aria-hidden="true"></span>
+                <span class="menu__price">00</span>
+              </div>
+              <p class="menu__desc">A short description of this dish goes here.</p>
+            </li>
+            <li class="menu__item">
+              <div class="menu__item-head">
+                <span class="menu__item-name">Example dessert three</span>
+                <span class="menu__dots" aria-hidden="true"></span>
+                <span class="menu__price">00</span>
+              </div>
+              <p class="menu__desc">A short description of this dish goes here.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu__foot">
+        <div class="menu__set">
+          <p class="menu__set-label">Optional feature</p>
+          <p class="menu__set-title">Example set menu</p>
+          <p class="menu__set-desc">
+            Describe a set or tasting menu here · <strong>00 per guest</strong>
+            <span>Optional pairing, +00</span>
+          </p>
+        </div>
+        <a href="#reserve" class="btn btn--dark">Book the Table</a>
+      </div>
+    </section>
+
+    <!-- ============ PLATES BAND ============ -->
+    <section class="plates" aria-label="A few of our plates">
+      <figure class="plates__cell reveal">
+        <img src="assets/google/g2.jpg" alt="Sirloin with rocket, shaved parmesan and seasonal vegetables at The Old School House" loading="lazy" />
+      </figure>
+      <figure class="plates__cell reveal">
+        <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=800&q=80" alt="A seasonal dish plated simply" loading="lazy" />
+      </figure>
+      <figure class="plates__cell reveal">
+        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80" alt="Dessert dusted and finished" />
+      </figure>
+      <figure class="plates__cell reveal">
+        <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80" alt="A glass of wine poured at the table" />
+      </figure>
+    </section>
+
+    <!-- ============ RESERVE / VISIT ============ -->
+    <section class="reserve" id="reserve" aria-labelledby="reserve-title">
+      <div class="reserve__panel">
+        <div class="reserve__intro">
+          <p class="eyebrow">Bookings</p>
+          <h2 class="section-title" id="reserve-title">Book a table</h2>
+          <p class="reserve__note">
+            We take bookings by phone — give us a call and we'll find you a table.
+            Walk-ins are welcome too, subject to space.
+          </p>
+        </div>
+        <div class="reserve__cta">
+          <a href="tel:+441159653875" class="btn btn--brass btn--block">Call 0115 965 3875</a>
+          <a href="contact.html" class="reserve__cta-link">See full contact details →</a>
+        </div>
+      </div>
+
+      <div class="visit" id="visit">
+        <div class="visit__card reveal">
+          <h3 class="visit__title">Find us</h3>
+          <address class="visit__address">
+            The Old School House<br />
+            Calverton<br />
+            Nottingham · NG14 6LU
+          </address>
+          <dl class="visit__hours">
+            <div><dt>Monday – Friday</dt><dd>7:30 – 9:30 pm</dd></div>
+            <div><dt>Saturday – Sunday</dt><dd>Closed</dd></div>
+          </dl>
+          <div class="visit__contact">
+            <a href="tel:+441159653875">0115 965 3875</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <span class="footer__mark">O·S·H</span>
+        <p class="footer__name">The Old School House</p>
+        <p class="footer__tag">Add a short tagline about your restaurant here.</p>
+      </div>
+      <nav class="footer__col" aria-label="Explore">
+        <p class="footer__col-title">Explore</p>
+        <a href="#story">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#reserve">Reserve</a>
+      </nav>
+      <div class="footer__col">
+        <p class="footer__col-title">Say hello</p>
+        <a href="tel:+441159653875">0115 965 3875</a>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Journal">Journal</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__base">
+      <p>© The Old School House, Calverton.</p>
+      <p>Interior &amp; dish photography via Google, © Marilyn Welsh, Tracy Johnson &amp; Seddon Platts.</p>
+    </div>
+  </footer>
+
+  <script src="script.js?v=11"></script>
+</body>
+</html>
