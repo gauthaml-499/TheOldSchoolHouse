@@ -75,16 +75,6 @@
 
       <div class="hero__content">
        <div class="hero__panel">
-        <a class="gpill" href="https://maps.app.goo.gl/zJDxkAFFY1DviZDd6" target="_blank" rel="noopener" aria-label="Read our reviews on Google, opens in a new tab">
-          <svg class="gpill__g" viewBox="0 0 48 48" aria-hidden="true">
-            <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
-            <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
-            <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
-            <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
-          </svg>
-          <span class="gpill__stars" aria-hidden="true">★★★★★</span>
-          <span class="gpill__text">Read our reviews on Google</span>
-        </a>
         <p class="eyebrow eyebrow--light">Calverton · Nottingham</p>
         <h1 class="hero__title" id="hero-title">The Old School House</h1>
         <p class="hero__tagline">A short tagline about <em>your restaurant</em></p>
@@ -106,12 +96,134 @@
       </div>
     </section>
 
-    <!-- ============ INTRO STRIP ============ -->
-    <section class="strip">
-      <p class="strip__text">
-        A short, memorable line about your restaurant goes here —
-        <em>this space is yours to make your own.</em>
-      </p>
+    <!-- ============ GOOGLE REVIEWS ============ -->
+    <section class="reviews" aria-labelledby="reviews-title">
+      <div class="reviews__head">
+        <div class="reviews__summary">
+          <svg class="reviews__g" viewBox="0 0 48 48" aria-hidden="true">
+            <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+            <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+            <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+            <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+          </svg>
+          <div>
+            <div class="reviews__score">
+              <span id="reviews-title">4.9</span>
+              <span class="reviews__stars" aria-hidden="true">★★★★★</span>
+            </div>
+            <p class="reviews__count">49 reviews on Google</p>
+          </div>
+        </div>
+        <a class="reviews__link" href="https://maps.app.goo.gl/zJDxkAFFY1DviZDd6" target="_blank" rel="noopener" aria-label="Read all our reviews on Google, opens in a new tab">
+          Read all reviews <span aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <div class="reviews__marquee">
+        <div class="reviews__track">
+          <article class="rev">
+            <div class="rev__head">
+              <span class="rev__avatar" aria-hidden="true">TJ</span>
+              <div class="rev__who">
+                <p class="rev__name">Tracy Johnson</p>
+              </div>
+            </div>
+            <p class="rev__stars" aria-hidden="true">★★★★★</p>
+            <p class="rev__text">Came here with my partner and friends on valentines day. Amazing food and exceptional service. Fantastic ambience. Will definitely come again.</p>
+          </article>
+          <article class="rev">
+            <div class="rev__head">
+              <span class="rev__avatar" aria-hidden="true">MW</span>
+              <div class="rev__who">
+                <p class="rev__name">Marilyn Welsh</p>
+              </div>
+            </div>
+            <p class="rev__stars" aria-hidden="true">★★★★★</p>
+            <p class="rev__text">Amazing food and really helpful, professional, friendly staff.</p>
+          </article>
+          <article class="rev">
+            <div class="rev__head">
+              <span class="rev__avatar" aria-hidden="true">SP</span>
+              <div class="rev__who">
+                <p class="rev__name">Seddon Platts</p>
+              </div>
+            </div>
+            <p class="rev__stars" aria-hidden="true">★★★★★</p>
+            <p class="rev__text">Pleasant staff and great food. What else do you need?</p>
+          </article>
+          <article class="rev">
+            <div class="rev__head">
+              <span class="rev__avatar" aria-hidden="true">ST</span>
+              <div class="rev__who">
+                <p class="rev__name">Steve Thompson</p>
+              </div>
+            </div>
+            <p class="rev__stars" aria-hidden="true">★★★★★</p>
+            <p class="rev__text">Such a good dining experience, lovely food, beautifully cooked and presented. The steak was so nice and the puddings were delicious, served up in a unique setting by a welcoming host.</p>
+          </article>
+          <article class="rev">
+            <div class="rev__head">
+              <span class="rev__avatar" aria-hidden="true">PW</span>
+              <div class="rev__who">
+                <p class="rev__name">Pete Wilford</p>
+              </div>
+            </div>
+            <p class="rev__stars" aria-hidden="true">★★★★★</p>
+            <p class="rev__text">The team as always do a fantastic job, and a great well done to the cook — the food was excellent. This year I saved myself all day to have an extra pudding and managed 2, many thanks.</p>
+          </article>
+          <!-- duplicate set for seamless marquee loop -->
+          <article class="rev" aria-hidden="true">
+            <div class="rev__head">
+              <span class="rev__avatar">TJ</span>
+              <div class="rev__who">
+                <p class="rev__name">Tracy Johnson</p>
+              </div>
+            </div>
+            <p class="rev__stars">★★★★★</p>
+            <p class="rev__text">Came here with my partner and friends on valentines day. Amazing food and exceptional service. Fantastic ambience. Will definitely come again.</p>
+          </article>
+          <article class="rev" aria-hidden="true">
+            <div class="rev__head">
+              <span class="rev__avatar">MW</span>
+              <div class="rev__who">
+                <p class="rev__name">Marilyn Welsh</p>
+              </div>
+            </div>
+            <p class="rev__stars">★★★★★</p>
+            <p class="rev__text">Amazing food and really helpful, professional, friendly staff.</p>
+          </article>
+          <article class="rev" aria-hidden="true">
+            <div class="rev__head">
+              <span class="rev__avatar">SP</span>
+              <div class="rev__who">
+                <p class="rev__name">Seddon Platts</p>
+              </div>
+            </div>
+            <p class="rev__stars">★★★★★</p>
+            <p class="rev__text">Pleasant staff and great food. What else do you need?</p>
+          </article>
+          <article class="rev" aria-hidden="true">
+            <div class="rev__head">
+              <span class="rev__avatar">ST</span>
+              <div class="rev__who">
+                <p class="rev__name">Steve Thompson</p>
+              </div>
+            </div>
+            <p class="rev__stars">★★★★★</p>
+            <p class="rev__text">Such a good dining experience, lovely food, beautifully cooked and presented. The steak was so nice and the puddings were delicious, served up in a unique setting by a welcoming host.</p>
+          </article>
+          <article class="rev" aria-hidden="true">
+            <div class="rev__head">
+              <span class="rev__avatar">PW</span>
+              <div class="rev__who">
+                <p class="rev__name">Pete Wilford</p>
+              </div>
+            </div>
+            <p class="rev__stars">★★★★★</p>
+            <p class="rev__text">The team as always do a fantastic job, and a great well done to the cook — the food was excellent. This year I saved myself all day to have an extra pudding and managed 2, many thanks.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
     <!-- ============ STORY ============ -->
